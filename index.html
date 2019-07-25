@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>form study</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+
+  </style>
+</head>
+<body>
+  <form name="weightForm">
+    <p>men:<input type="radio" name="sex" checked></p>
+    <p>woman:<input type="radio" name="sex"></p>
+    <p>height:<input type="text" name="height" autofocus>cm</p>
+    <input type="button" value="calc" name="calc" onclick="Weightcalc(this.form)"><br>
+    limit weight:<input type="text" name="weight">kg
+  </form>
+  <form name="myForm"><p>
+    <input type="button" value="OPEN" name="openBtn" onclick="openWin()">
+  </p></form>
+  <script src="main.js">
+  'use strict';
+
+</script>
+</body>
+</html>
